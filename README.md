@@ -8,6 +8,8 @@ By using mapping, reducing and piping techniques I have first mapped and the sor
 
 ## Commands used:
 
+Open powershell and redirect to the folder where your repo is present and give the following commands to map and reduce the data set.  The final output name is "redOutput.txt" where the country names and their counts are generated.
+
 ```cat gdp.csv | python 01mapper.py > mapOutput.txt```
 
 ```cat gdp.csv | python 01mapper.py | sort | python 01reducer.py > redOutput.txt```
