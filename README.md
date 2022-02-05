@@ -8,9 +8,9 @@ By using mapping, reducing and piping techniques I have first mapped and the sor
 
 ## Commands used:
 
-cat gdp.csv | python 01mapper.py > mapOutput.txt
+```cat gdp.csv | python 01mapper.py > mapOutput.txt```
 
-cat gdp.csv | python 01mapper.py | sort | python 01reducer.py > redOutput.txt
+```cat gdp.csv | python 01mapper.py | sort | python 01reducer.py > redOutput.txt```
 
 ## Chart
 
